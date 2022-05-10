@@ -19,3 +19,20 @@ let eltDel = b.removeChild(p1);
 
 //Supprime p2 du DOM
 p2.remove()
+
+
+document.querySelector('#btn').onclick=
+   function() {
+    if(document.querySelector('#newtask01 input').value.length==0) {
+
+        alert('(Please Enter a task')
+       }
+
+       else{
+
+        document.querySelector('#btn').innerHTML+-
+       }
+
+
+   }
+  
