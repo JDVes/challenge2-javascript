@@ -1,66 +1,79 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-.titre{
-
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-    text-transform: capitalize;
-    height: 25%;
-    border: solid 1px ;
-    background-color: blueviolet;
-  
-}
-
-.tache{
-    
-
-}
-
-.clic01{
-color: honeydew;
-font-family:  sans-serif;
-
-
-}
-
-.newtask01{
-
-display: flex;
-justify-content: center;
-
-}
-
-
-#champ{
-
-}
-
-#btn{
-
-}
-
-footer{
-
-    font-size: smaller;
-    font-family:  Times;
-    font-style: italic;
-    height: 25%;
-    bottom: 30px;
-}
-
-.citation{
-
-    font-size: smaller;
-    font-family:  Times;
-    font-style: italic;
-    
-
-}
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: aqua;
+        }
+        
+        .titre {
+            text-align: center;
+        }
+        
+        h2 {
+            text-align: center;
+            text-transform: capitalize;
+            height: 25%;
+            border: solid 1px;
+            background-color: blueviolet;
+        }
+        
+        .tache {}
+        
+        .clic01 {
+            color: honeydew;
+            font-family: sans-serif;
+        }
+        
+        .newtask01 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .newtask {
+            border: solid 1px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: auto;
+            width: 400px;
+            height: 300px;
+        }
+        
+        #champ {}
+        
+        #btn {}
+        
+        footer {
+            font-size: smaller;
+            font-family: Times;
+            font-style: italic;
+            height: 25%;
+            bottom: 30px;
+        }
+        
+        .citation {
+            font-size: smaller;
+            font-family: Times;
+            font-style: italic;
+            margin-top: 40%;
+        }
+        
+        input {
+            width: 150px;
+            height: 20px;
+            border-radius: 5px;
+        }
+        
+        #btn {
+            width: 150px;
+            height: 30px;
+        }
+        
+        #saisir {
+            width: 150px;
+            height: 30px;
+            text-decoration: none;
+        }
